@@ -3,45 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfólio Felipe Fernandes</title>
-        <style>
-            body {
-                font-size: 15px;
-                color: #0b455e;
-                background-color: #eeeeee;
-                font-family: monospace;
-            }
-            h1 {
-                font-size: 2em;
-                text-decoration: underline magenta;
-            }
-            h2 {
-                font-size: 1.4em;
-                text-decoration: underline  magenta;
-            }
-            img {
-                border: 6px solid rgb(152, 226, 255);
-            }
-            #texto_foto{
-                font-size: 13px;
-            }
-        </style>
-
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
-        <h1><span style="color: rgb(214, 37, 199);">•</span> Felipe Fernandes <span style="color: rgb(214, 37, 199);">•</span></h1>
+        <header id="cabecalho">
+            <div class="quadrado"></div>
+            <h1 id="felipe-fernandes">Felipe Fernandes </h1>
+            <div class="quadrado"></div>
+        </header>
+        <div id="container-foto-apresentacao">
+            <div id="foto">
+                <img src="/perfil-trybe_2.jpg" alt="" width="320px">
+                <p><em>Esse sou eu na webcam em um manjado <br> fundo de livros</em> &#9996</p>
+            </div>
+            <div id="apresentacao">
+                <h2>Apresentação </h2>
+                <p><span class="fundo_texto">Meu nome é Felipe, moro em Petrópolis/RJ e sou aspirante a DEV. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor turpis in velit convallis aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla a quam vitae mi pharetra posuere venenatis non risus. Praesent consectetur ut risus vel pulvinar. Vivamus blandit vestibulum risus, eu hendrerit justo tristique at. Donec nunc tellus, pulvinar ut vehicula sed, malesuada sit amet justo. Aenean vestibulum sagittis ante rhoncus sollicitudin. Nam sit amet est in arcu blandit porttitor in nec dui. Duis non arcu eget mauris vulputate posuere. Etiam ligula ligula, sagittis rhoncus enim nec, consectetur tempus nibh. Curabitur leo.</span> &#128521</p>
+            </div>
+        </div>
 
-        <img src="/perfil-trybe_2.jpg" alt="" width="320px">
-        <p id="texto_foto"><em>Esse sou eu na webcam em um manjado <br> fundo de livros</em> &#9996</p>
-        <br>
-        <h2>• Apresentação •</h2>
-        <p>Meu nome é Felipe, moro em Petrópolis/RJ e sou aspirante a DEV &#128521</p>
-        <br>
-        <h2>• Lista de habilidades •</h2>
+        <h2>Lista de habilidades </h2>
         <ul>
-            <li>Python e JavaScript (sempre estudando)</li>
-            <li>Violão e piano (nível básico, né)</li>         
-            <li><strong> Desenhar e pintar (sou bom nisso!)</strong></li>
+            <li><span class="fundo_texto"> Python e JavaScript (sempre estudando)</li>
+            <li><span class="fundo_texto">Violão e piano (nível básico, né)</li>         
+            <li><span class="fundo_texto"><strong> Desenhar e pintar (sou bom nisso!)</strong></li>
         </ul>
         <br>
         <!-- <a href="http://www.hardcoregaming101.net/" target="_blank"> &#128377 Perco um bom tempo nessa página</a> -->

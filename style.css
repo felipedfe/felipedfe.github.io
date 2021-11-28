@@ -1,0 +1,61 @@
+body {
+    font-size: 15px;
+    color: #0b455e;
+    /* background-color: #eeeeee; */
+    font-family: monospace;
+    background: repeating-linear-gradient( rgb(238, 238, 238), rgb(238, 238, 238) 2px, #e6e6e6 2px, #e6e6e6  4px);
+}
+#felipe-fernandes {
+    font-size: 2.8em;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1 {
+    font-size: 2.8em;
+}
+h2 {
+    font-size: 1.4em;
+    text-decoration: underline  magenta;
+}
+img {
+    border: 6px solid rgb(152, 226, 255);
+    border-radius: 3%;
+}
+#container-foto-apresentacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+#foto {
+    margin-right: 26px;
+}
+#apresentacao {
+    width: 400px;
+    margin-left: 26px;
+}
+#apresentacao h2 {
+    margin-top: 0%;
+}
+#foto p{
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.fundo_texto {
+    background-color: rgb(202, 240, 255);
+}
+#cabecalho {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.quadrado {
+    width: 10px;
+    height: 10px;
+    background-color: magenta;
+    margin-top: 50px;
+
+}
