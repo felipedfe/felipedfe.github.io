@@ -1,12 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-size: 15px;
-    color: #0b455e;
-    /* background-color: #eeeeee; */
+    color: rgb(11, 69, 94);
     font-family: monospace;
-    background: repeating-linear-gradient( rgb(238, 238, 238), rgb(238, 238, 238) 2px, #e6e6e6 2px, #e6e6e6  4px);
+    /* background: repeating-linear-gradient( rgb(238, 238, 238), rgb(238, 238, 238) 2px, #e6e6e6 2px, #e6e6e6  4px); */
+    background-color: rgb(230, 230, 230);
 }
 #felipe-fernandes {
-    font-size: 2.8em;
+    font-size: 3rem;
     background-color: rgb(255, 255, 255);
     margin-left: 20px;
     margin-right: 20px;
