@@ -20,7 +20,7 @@ main {
 h1 {
     font-size: 4rem;
     padding: 1rem;
-    border: solid magenta 2px;
+    border: solid rgb(255, 0, 247) 2px;
     cursor: default;
 }
 
@@ -50,7 +50,7 @@ button {
 
 .caixa-sombra {
     background-color: rgb(255, 255, 255);
-    box-shadow: 0.15em  0.15em rgb(255, 0, 247);
+    box-shadow: 0.15em  0.15em rgb(0, 21, 255);
     /* box-shadow: rgb(31, 193, 27) 0px 0px 0px 3px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) -10px 10px; */
 }
 
