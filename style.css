@@ -11,16 +11,30 @@ body {
     background-color: rgb(230, 230, 230);
 }
 
-#felipe-fernandes {
+h1 {
     font-size: 3rem;
+    padding: 1rem;
     background-color: rgb(255, 255, 255);
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
-h1 {
-    font-size: 2.8em;
+a {
+    all: unset
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    all: unset;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    font-weight: 700;
+    border: none;
+}
+
+/*  */
 
 h2 {
     font-size: 1.4em;
@@ -30,6 +44,7 @@ h2 {
 img {
     border: 6px solid rgb(152, 226, 255);
     border-radius: 3%;
+    /* max-width: 100%; */
 }
 
 #container-foto-apresentacao {
@@ -48,10 +63,6 @@ img {
     margin-left: 26px;
 }
 
-#apresentacao h2 {
-    margin-top: 0%;
-}
-
 #foto p {
     font-size: 13px;
     margin-top: 2%;
@@ -62,28 +73,18 @@ img {
     background-color: rgb(202, 240, 255);
 }
 
-#cabecalho {
+.cabecalho {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 0px;
 }
 
-.quadrado {
-    width: 10px;
-    height: 10px;
+/* .quadrado {
+    width: 1rem;
+    height: 1rem;
+    min-width: 1rem;
     background-color: magenta;
     margin-top: 50px;
 
-}
-
-/* Media Query */
-@media screen and (max-width: 650px) {
-    body {
-        background-color: brown;
-    }
-
-    #felipe-fernandes {
-        font-size: 2.5rem;
-    }
-}
+} */
