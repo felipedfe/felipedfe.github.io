@@ -7,14 +7,21 @@
 body {
     color: rgb(11, 69, 94);
     font-family: monospace;
-    /* background: repeating-linear-gradient( rgb(238, 238, 238), rgb(238, 238, 238) 2px, #e6e6e6 2px, #e6e6e6  4px); */
     background-color: rgb(230, 230, 230);
+    /* background: repeating-linear-gradient( rgb(238, 238, 238), rgb(238, 238, 238) 2px, #e6e6e6 2px, #e6e6e6  4px); */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 1rem;
-    background-color: rgb(255, 255, 255);
+    border: solid magenta 2px;
+    cursor: default;
 }
 
 a {
@@ -28,24 +35,53 @@ nav {
 
 button {
     all: unset;
-    font-size: 1.5rem;
-    box-shadow: 5px 5px rgb(255, 255, 255);
-    font-weight: 700;
     border: none;
+    cursor: pointer;
+}
+
+.nome-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    letter-spacing: 0.2rem;
+}
+
+.caixa-sombra {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.15em  0.15em rgb(255, 0, 247);
+    /* box-shadow: rgb(31, 193, 27) 0px 0px 0px 3px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) -10px 10px; */
+}
+
+.botao-nav {
+    padding: 1px 3px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.gif-home {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
 
 h2 {
     font-size: 1.4em;
-    text-decoration: underline magenta;
+    text-decoration: underline rgb(255, 0, 247);
 }
 
-img {
+/* img {
     border: 6px solid rgb(152, 226, 255);
     border-radius: 3%;
-    /* max-width: 100%; */
-}
+} */
 
 #container-foto-apresentacao {
     display: flex;
@@ -73,18 +109,29 @@ img {
     background-color: rgb(202, 240, 255);
 }
 
-.cabecalho {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
+/* Media Query */
+@media all and (max-width: 750px) {
+    .nome-titulo {
+        text-align: center;
+        line-height: 0.8;
+        max-width: 400px;
+        justify-content: center;
+    }
 
-/* .quadrado {
-    width: 1rem;
-    height: 1rem;
-    min-width: 1rem;
-    background-color: magenta;
-    margin-top: 50px;
+    h1 {
+        font-size: 3.5rem;
+    }
+} 
+@media all and (max-width: 480px) {
+    .nome-titulo {
+        max-width: 200px;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    .botao-nav {
+        font-size: 1.3rem;
+    }
+} 
 
-} */
+
