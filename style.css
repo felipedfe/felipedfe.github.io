@@ -71,7 +71,7 @@ i {
 
 .imagem-projeto {
   padding: 10px;
-  border-radius: 20px;
+  /* border-radius: 20px; */
 }
 
 .projeto-link {
@@ -138,8 +138,13 @@ i {
   margin: 1rem 1rem 1rem 0.5rem
 }
 
+.link-site, .email-botao {
+  margin-right: 0.8rem;
+}
+
 #texto-apresentacao {
   font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 ::selection {
