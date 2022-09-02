@@ -42,7 +42,10 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 70vh; */
+}
+
+.projetos-main {
+  flex-direction: column;
 }
 
 .botao-nav {
@@ -69,14 +72,12 @@ i {
   justify-content: space-evenly;
   width: 80%;
   margin-top: 1.5rem;
-  height: 80vh;
-  /* width: 600px; */
+  height: 35vh;
 }
 
 .imagem-projeto {
   padding: 10px;
   width: 20rem;
-  /* border-radius: 20px; */
 }
 
 .imagem-projeto:hover {
@@ -106,7 +107,6 @@ i {
 }
 
 .fundo_texto {
-  /* background-color: rgb(202, 240, 255); */
   background-color: rgb(255, 255, 255);
 }
 
@@ -140,9 +140,6 @@ i {
 
 .caixa-de-msg:hover {
   visibility: visible;
-  /* opacity: 1; */
-  /* width: 200px; */
-  /* background-color: yellowgreen;*/
 }
 
 .texto-caixa-de-msg {
@@ -170,11 +167,11 @@ i {
 }
 
 .legenda-icones {
-  margin-left: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .projeto-ctr {
-  /* padding: 1rem; */
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -190,17 +187,15 @@ i {
 
 /* Media Query */
 
-@media all and (min-width: 2090px) {
-  .projeto-ctr {
-    margin-left: 100px;
-    margin-right: 100px;
+@media all and (min-width: 2300px) {
+  * {
+    font-size: 1.2rem;
   }
 }
 
-@media all and (min-width: 1760px) {
-  .projeto-ctr {
-    margin-left: 50px;
-    margin-right: 50px;
+@media all and (max-width: 1320px) {
+  .projetos-main {
+    flex-direction: row;
   }
 }
 
