@@ -162,6 +162,7 @@ i {
 .legenda-icones-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -196,6 +197,9 @@ i {
 @media all and (max-width: 1320px) {
   .projetos-main {
     flex-direction: row;
+  }
+  .projetos-container {
+    height: 80vh;
   }
 }
 
