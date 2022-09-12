@@ -220,6 +220,23 @@ i {
   }
 }
 
+@media all and (max-width: 1320px) {
+  .projetos-main {
+    /* flex-direction: column; */
+  }
+  .projetos-container {
+    height: 800px;
+    width: 500px;
+  }
+  .legenda-icones {
+    /* margin: 0; */
+    margin-bottom: 1rem;
+  }
+  .legenda-icones-container {
+    justify-content: center;
+  }
+}
+
 @media all and (max-width: 880px) {
   .nome-titulo-container {
     text-align: center;
