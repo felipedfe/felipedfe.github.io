@@ -162,14 +162,15 @@ i {
 .legenda-icones-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .legenda-icones {
   margin-bottom: 1rem;
-
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .projeto-ctr {
@@ -209,6 +210,13 @@ i {
   }
   .projetos-container {
     height: 800px;
+  }
+  .legenda-icones {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  .legenda-icones-container {
+    justify-content: space-around;
   }
 }
 
