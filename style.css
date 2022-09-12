@@ -214,6 +214,8 @@ i {
   .legenda-icones {
     margin: 0;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .legenda-icones-container {
     justify-content: space-around;
