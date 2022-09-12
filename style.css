@@ -203,6 +203,15 @@ i {
   }
 }
 
+@media all and (max-width: 725px) {
+  .projetos-main {
+    flex-direction: column;
+  }
+  .projetos-container {
+    height: 800px;
+  }
+}
+
 @media all and (max-width: 880px) {
   .nome-titulo-container {
     text-align: center;
