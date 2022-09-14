@@ -223,9 +223,6 @@ i {
 }
 
 @media all and (max-width: 1320px) {
-  .projetos-main {
-    /* flex-direction: column; */
-  }
   .projetos-container {
     height: 800px;
     width: 500px;
