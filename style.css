@@ -33,7 +33,7 @@ nav {
   box-shadow: 0.15em 0.15em rgb(255, 0, 247);
 }
 
-.caixa-sombra:hover {
+a .caixa-sombra:hover {
   box-shadow: 0.15em 0.15em rgb(11, 69, 94)
 
 }
