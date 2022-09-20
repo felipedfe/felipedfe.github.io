@@ -9,6 +9,7 @@ body {
   font-family: monospace;
   background-color: rgb(230, 230, 230);
   background: repeating-linear-gradient(rgb(238, 238, 238), rgb(238, 238, 238) 2px, #e6e6e6 2px, #e6e6e6 4px);
+  overflow-y: overlay;
 }
 
 h1 {
@@ -25,6 +26,7 @@ a {
 nav {
   display: flex;
   justify-content: space-around;
+  position: sticky; 
 }
 
 button {
@@ -168,9 +170,6 @@ i {
 }
 
 .legenda-icones {
-  /* margin-bottom: 1rem;
-  margin-left: 3rem;
-  margin-right: 3rem; */
   margin: 1rem 3rem 1rem 3rem;
 }
 
@@ -229,7 +228,6 @@ i {
     width: 500px;
   }
   .legenda-icones {
-    /* margin: 0; */
     margin-bottom: 1rem;
   }
   .legenda-icones-container {
