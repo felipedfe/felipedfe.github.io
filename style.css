@@ -1,3 +1,8 @@
+:root {
+  --pink: rgb(255, 0, 247);
+  --gray: rgb(11, 69, 94);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-  color: rgb(11, 69, 94);
+  color: var(--gray);
   font-family: monospace;
   background-color: rgb(230, 230, 230);
   background: repeating-linear-gradient(rgb(238, 238, 238), rgb(238, 238, 238) 2px, #e6e6e6 2px, #e6e6e6 4px);
@@ -15,7 +20,7 @@ body {
 h1 {
   font-size: 4rem;
   padding: 1rem;
-  border: solid rgb(255, 0, 247) 2px;
+  border: solid var(--pink) 2px;
   cursor: default;
 }
 
@@ -30,12 +35,11 @@ nav {
 
 .caixa-sombra {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0.15em 0.15em rgb(255, 0, 247);
+  box-shadow: 0.15em 0.15em var(--pink);
 }
 
 a .caixa-sombra:hover {
-  box-shadow: 0.15em 0.15em rgb(11, 69, 94)
-
+  box-shadow: 0.15em 0.15em var(--gray);
 }
 
 button {
@@ -49,10 +53,15 @@ i {
   cursor: pointer;
 }
 
-.home-main, .projetos-main {
+.home-main,
+.projetos-main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.home-main {
+  flex-direction: column;
 }
 
 .projetos-main {
@@ -73,6 +82,9 @@ i {
   justify-content: center;
   align-items: center;
   height: 65vh;
+}
+
+.nome-titulo-container h1 {
   letter-spacing: 0.2rem;
 }
 
@@ -132,11 +144,16 @@ i {
   padding: 1rem;
 }
 
+.links-container {
+  margin-top: 25px;
+}
+
 #foto-perfil {
   padding: 1rem;
 }
 
 .caixa-de-msg {
+  position: relative;
   display: flex;
 }
 
@@ -149,11 +166,14 @@ i {
 }
 
 .texto-caixa-de-msg {
+  position: absolute;
+  left: 50px;
   background-color: rgb(255, 255, 255);
   margin: 1rem 1rem 1rem 0.5rem
 }
 
-.link-site, .email-botao {
+.link-site,
+.email-botao {
   margin-right: 0.8rem;
 }
 
@@ -182,9 +202,15 @@ i {
   margin-right: 1rem;
 }
 
-#texto-apresentacao {
+.texto-apresentacao {
   font-size: 1rem;
   margin-bottom: 1rem;
+}
+
+.texto-apresentacao a {
+  color: var(--pink);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 ::selection {
@@ -203,6 +229,7 @@ i {
   .projetos-main {
     flex-direction: row;
   }
+
   .projetos-container {
     height: 80vh;
   }
@@ -212,15 +239,18 @@ i {
   .projetos-main {
     flex-direction: column;
   }
+
   .projetos-container {
     height: 800px;
   }
+
   .legenda-icones {
     margin: 0;
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
   .legenda-icones-container {
     justify-content: space-around;
   }
@@ -231,9 +261,11 @@ i {
     height: 800px;
     width: 500px;
   }
+
   .legenda-icones {
     margin-bottom: 1rem;
   }
+
   .legenda-icones-container {
     justify-content: center;
   }
