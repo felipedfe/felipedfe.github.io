@@ -98,6 +98,7 @@ i {
 
 .nome-titulo-container h1 {
   letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 .projetos-container {
@@ -227,6 +228,17 @@ i {
 @media all and (max-width: 938px) {
   .projeto-ctr {
     width: 40%;
+  }
+}
+
+@media all and (max-width: 880px) {
+  .nome-titulo-container {
+    line-height: 0.8;
+    max-width: 400px;
+  }
+
+  .nome-titulo-container h1 {
+      font-size: 3.5rem;
   }
 }
 
