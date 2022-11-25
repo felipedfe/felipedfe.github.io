@@ -224,10 +224,13 @@ i {
 }
 
 /* Media Query */
-
-@media all and (max-width: 938px) {
+@media all and (max-width: 768px) {
   .projeto-ctr {
-    width: 40%;
+    width: 80%;
+  }
+
+  .legenda-icones {
+    margin-bottom: 0.3rem;
   }
 }
 
@@ -242,12 +245,8 @@ i {
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 938px) {
   .projeto-ctr {
-    width: 80%;
-  }
-
-  .legenda-icones {
-    margin-bottom: 0.3rem;
+    width: 40%;
   }
 }
