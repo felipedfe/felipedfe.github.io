@@ -224,7 +224,7 @@ i {
 }
 
 /* Media Query */
-@media all and (max-width: 768px) {
+/* @media all and (max-width: 768px) {
   .projeto-ctr {
     width: 80%;
   }
@@ -232,7 +232,7 @@ i {
   .legenda-icones {
     margin-bottom: 0.3rem;
   }
-}
+} */
 
 @media all and (max-width: 880px) {
   .nome-titulo-container {
@@ -248,5 +248,15 @@ i {
 @media all and (max-width: 938px) {
   .projeto-ctr {
     width: 40%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .projeto-ctr {
+    width: 80%;
+  }
+
+  .legenda-icones {
+    margin-bottom: 0.3rem;
   }
 }
