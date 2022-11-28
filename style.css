@@ -223,16 +223,7 @@ i {
   background-color: rgb(159, 255, 237);
 }
 
-/* Media Query */
-/* @media all and (max-width: 768px) {
-  .projeto-ctr {
-    width: 80%;
-  }
 
-  .legenda-icones {
-    margin-bottom: 0.3rem;
-  }
-} */
 
 @media all and (max-width: 880px) {
   .nome-titulo-container {
@@ -258,5 +249,16 @@ i {
 
   .legenda-icones {
     margin-bottom: 0.3rem;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .nome-titulo-container {
+    line-height: 0.8;
+    max-width: 200px;
+  }
+
+  .nome-titulo-container h1 {
+      font-size: 2.5rem;
   }
 }
