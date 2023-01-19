@@ -219,6 +219,13 @@ i {
   cursor: pointer;
 }
 
+.image-container {
+  /* 591 × 347 */
+  width: 591px;
+  height: 347px;
+  background-color: red;
+}
+
 ::selection {
   background-color: rgb(159, 255, 237);
 }
